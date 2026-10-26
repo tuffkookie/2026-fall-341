@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="sales-order-process" name="Page-1">
+    <mxGraphModel dx="1414" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1056" pageHeight="816" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="start" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="105" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="task1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=none;strokeColor=#000000;strokeWidth=1.5;fontSize=14;" value="Take the&lt;br&gt;customer order" vertex="1">
+          <mxGeometry height="80" width="160" x="220" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="task2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=none;strokeColor=#000000;strokeWidth=1.5;fontSize=14;" value="Run the&lt;br&gt;credit check" vertex="1">
+          <mxGeometry height="80" width="160" x="445" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="task3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=none;strokeColor=#000000;strokeWidth=1.5;fontSize=14;" value="Record&lt;br&gt;the sale" vertex="1">
+          <mxGeometry height="80" width="160" x="670" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="end" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=#000000;strokeWidth=5;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="900" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="start" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" target="task1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="task1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" target="task2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="task2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" target="task3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="task3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" target="end" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
